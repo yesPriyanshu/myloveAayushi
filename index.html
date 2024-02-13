@@ -70,119 +70,6 @@ p {
   color: rgb(0,0,100);
   opacity: 0.75;
   user-select: none;
-  
-}
-    @import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
-
-@-webkit-keyframes throb{
-  0%{
-    -webkit-transform: scale(1);
-	}
-  35%{
-	  -webkit-transform: scale(1.2);
-	}
-	85%{
-	  -webkit-transform: scale(1);
-	}		
-}
-
-html {
-  display: table;
-  width: 100%;
-  height: 100vmin;
-  table-layout: fixed;
-}
-
-.wrapper {
-  width: 90vmin;
-  height: 90vmin;
-  position: relative;
-  margin: 5vmin auto;
-}
-
-div.throb {
-  -webkit-animation: throb 0.5s infinite;
-  animation: throb 0.5s infinite;
-  animation-delay: 0.8s;
-
-}
-input[type="checkbox"] {
-  display: none;
-}
-
-input[type="checkbox"] + label {
-  width: 30vmin; height: 30vmin;
-  line-height: 30vmin;
-  display: inline-block;
-  position: absolute;
-  font-size: 30vmin;
-  text-align: center;
-  transition: all 1s ease;
-}
-
-label {
-  text-shadow: 3vmin 3vmin 10vmin rgba(0,0,0,0.5);
-}
-  label:hover {
-    color: #c32a2a;
-    cursor: pointer;
-  }
-
-#ck1 + label,
-#ck2 + label {
-  border-radius: 50%;
-  top: 0;
-}
-
-#ck1:checked + label,
-#ck2:checked + label,
-#ck3:checked + label {
-  background: #c32a2a;
-  font-size: 0;
-  transition: all 1s ease;
-}
-
-#ck1 + label {
-  left: 0;
-}
-
-#ck2 + label {
-  right: 10vmin;
-}
-
-#ck1:checked + label,
-#ck2:checked + label {
-  width: 54vmin; height: 54vmin;
-  border-radius: 50%;
-  line-height: 54vmin;
-}
-
-#ck2:checked + label {
-  right: 0;
-}
-
-#ck3 + label {
-  bottom: 5vmin; left: 50%;
-  margin: 0 -9vmin;
-  background-color: white;
-}
-
-#ck3:checked + label {
-  width: 49.5vmin; height: 49.5vmin;
-  bottom: 17.28vmin; left: 29.16vmin;
-  transform: rotate(45deg);
-  line-height: 4.86vmin;
-}
-
-span {
-  display: inline-block;
-  text-align: left;
-  position: absolute;
-  bottom: 0vmin; left: 0vmin;
-  margin-bottom: -3vmin;
-  font-size: 6vmin;
-  color: #999;
-}
 
 </style>
 
@@ -195,16 +82,17 @@ span {
 <div class="paper image">
   <p> and I fallen in</p>
     <p>Love with You 😍 </p>
-   <img src="https://iili.io/HSzXpzg.jpg" />
+   <img src="https://cdn.discordapp.com/attachments/767317116353249280/1207024691672260649/1000015243-01.jpg?ex=65de2457&is=65cbaf57&hm=98ffe3f3a0f8efb1ea675f0a97b2602d44213a61c49e0556ec7d6f1736e745ac&" />
 </div>
 <div class="paper image">
   <p</p>
-  <img src="https://iili.io/HSzXbmF.jpg" />
+  <img src="https://cdn.discordapp.com/attachments/767317116353249280/1207024692322504774/1000008961-01.jpg?ex=65de2458&is=65cbaf58&hm=6fb008451be64cc267db5d533be2b5b7588432a30e2abb196d5c15f14abad6a8&
+" />
 </div>
 <div class="paper image">
   <p>How can be </p>
    <p> someone so cute ❤️ </p>
-  <img src="https://iili.io/HSzXyXa.jpg" />
+  <img src="https://cdn.discordapp.com/attachments/767317116353249280/1207024964654342194/IMG-20231109-WA0004.jpg?ex=65de2499&is=65cbaf99&hm=91c445db8405afd287f0cf67227111f5a38a16d7edaae1d8144fb87bef21f9f1&" />
 </div>
 <div class="paper red">
 <p class="p1"> and My Favorite</p>
@@ -217,17 +105,6 @@ span {
 <div class="paper">
 <p class="p1">Drag the papers to move!</p>
 </div>
-  <form>
-<div class="wrapper">
-  <input type="checkbox" id="ck1" onClick="check()"/>
-  <label for="ck1">I</label>
-  <input type="checkbox" id="ck2" onClick="check()"/>
-  <label for="ck2">love</label>
-  <input type="checkbox" id="ck3" onClick="check()"/>
-  <label for="ck3">you</label>
-  <span>(Click on words)</span>
-</div>
-</form>
 <!-- javascript file -->
   <script  src="js.js"></script>
 </body>
